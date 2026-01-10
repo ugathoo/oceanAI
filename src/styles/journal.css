@@ -1,0 +1,94 @@
+/* ===================================
+   BACKGROUNDS & GRADIENTS
+   =================================== */
+
+/* Page Background */
+.page-ocean-gradient {
+  background: linear-gradient(to bottom right, #ecfeff, #dbeafe, #ccfbf1);
+}
+
+/* Header */
+.header-gradient {
+  background: linear-gradient(to right, #0891b2, #1d4ed8);
+}
+
+.header-icon-bg {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+}
+
+/* Buttons */
+.btn-ocean-gradient {
+  background: linear-gradient(to right, #0891b2, #2563eb);
+}
+
+.btn-ocean-gradient:hover:not(:disabled) {
+  background: linear-gradient(to right, #0e7490, #1e40af);
+}
+
+/* Cards */
+.card-cyan-blue-gradient {
+  background: linear-gradient(to bottom right, #ecfeff, #dbeafe);
+}
+
+.card-teal-cyan-gradient {
+  background: linear-gradient(to bottom right, #f0fdfa, #ecfeff);
+}
+
+/* ===================================
+   JOURNAL BOOK SPECIFIC
+   =================================== */
+
+.journal-book-binding {
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  right: 2rem;
+  height: 0.25rem;
+  background: linear-gradient(to right, transparent, #d1d5db, transparent);
+}
+
+.journal-page {
+  background: linear-gradient(to bottom, #ffffff 0%, #f0fdff 100%);
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 31px,
+    #e0f2fe 31px,
+    #e0f2fe 32px
+  );
+}
+
+.journal-text {
+  font-family: serif;
+  line-height: 2rem;
+  white-space: pre-wrap;
+}
+
+/* ===================================
+   INSIGHTS CARDS
+   =================================== */
+
+.sentiment-bar-positive {
+  background-color: #06b6d4;
+}
+
+.sentiment-bar-negative {
+  background-color: #ef4444;
+}
+
+.sentiment-bar-neutral {
+  background-color: #eab308;
+}
+
+.sentiment-bar-container {
+  background-color: white;
+  border-radius: 9999px;
+  height: 0.5rem;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.sentiment-bar {
+  height: 100%;
+  transition: width 0.3s ease;
+}
