@@ -2,6 +2,9 @@
 
 An AI-powered journaling companion that makes self-reflection a seamless and insightful daily habit.
 
+## Demo Video
+[![Watch Demo]](https://youtu.be/E1nfgosysaw)
+
 ## ✨ Features
 
 - **🤖 AI-Powered Prompts** - Context-aware reflection questions based on your journal history and personal goals
